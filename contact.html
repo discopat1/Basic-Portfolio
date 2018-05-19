@@ -2,17 +2,22 @@
 <html>
     <head>
         <title>contact form</title>
-        <link rel="stylesheet" type="text/css" href="">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 <body>
     <header>
-        <div class="container">Patrick Neff 
+        <div class="container">
+                <a href= "index.html" id= "myname">Patrick Neff</a>
             <nav>
-                <a href="index.html">About</a> | <a href="portfolio">Portfolio</a> | <a href="contact.html">Contact</a>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
+    <div class="main-container">
     <section class= "container">
             <h1>Contact</h1>
         <form action="action_page.php">
@@ -26,12 +31,12 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" style="height:200px"></textarea>
             
-                <input type="submit" value="Submit">
-            
+                <input type="submit" value="Submit" id= "button">
         </form>
+    </div>  
     </section>
     <footer>
-        <div class="container">
+        <div>
             &copy; copyright
         </div>
     </footer>
